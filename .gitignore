@@ -42,3 +42,18 @@ Network Trash Folder
 Temporary Items
 .apdisk
 *.exe
+/**/bin/**/*
+/./**/bin/**/*
+./**/bin/**/*
+**/bin/**/*
+*/bin/**/*
+bin/**/*
+/**/bin/* #and the others with just * at the end too
+
+/**/obj/**/*
+/./**/obj/**/*
+./**/obj/**/*
+**/obj/**/*
+*/obj/**/*
+obj/**/*
+/**/obj/* #and the others with just * at the end too
