@@ -68,6 +68,10 @@ namespace DSPRJ1_2
             }
         }
 
+        /// <summary>
+        /// Gives lessons to students with equal percent
+        /// </summary>
+        /// <param name="N">Student count</param>
         static void GiveStudentsLessons(int N)
         {
             int nextLessonToGive = 0;
@@ -84,6 +88,9 @@ namespace DSPRJ1_2
             }
         }
 
+        /// <summary>
+        /// Prints Lesson-Student match table
+        /// </summary>
         static void PrintMatchTable()
         {
             for (int i = 0; i < 10; i++)
